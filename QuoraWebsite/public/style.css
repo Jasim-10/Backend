@@ -1,0 +1,24 @@
+h1{
+    color: maroon;
+}
+
+.post{
+    background-color: blanchedalmond;
+}
+
+.user{
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    padding: 4px;
+    font-size: 20px;
+    border: 20% ;
+}
+button:hover{
+    color: rgba(23, 45, 76, 0.9);
+}
