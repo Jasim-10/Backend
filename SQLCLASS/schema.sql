@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS person;
+CREATE TABLE person(
+	id INT PRIMARY KEY,
+    name VARCHAR(50) UNIQUE,
+    age INT NOT NULL DEFAULT 18,
+    email VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(50) NOT NULL
+);
+
+
+
