@@ -75,9 +75,6 @@ app.put("/chats/:id",async (req,res)=>{
 
 
 
-
-
-
 //Delete route
 app.delete("/chats/:id",async (req,res)=>{
     let {id} = req.params;
